@@ -1,0 +1,44 @@
+/* This targets the whole page */
+body {
+    background-color: #f0f2f5; /* Light grey background */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centers everything */
+    color: #333; /* Dark grey text is easier to read than black */
+}
+
+/* This targets the main container */
+.container {
+    background-color: white;
+    width: 90%;
+    max-width: 600px; /* Prevents it from getting too wide */
+    margin: 50px auto; /* Centers the box vertically and horizontally */
+    padding: 40px;
+    border-radius: 10px; /* Rounds the corners */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Adds a subtle shadow */
+}
+
+/* This targets the Heading (h1) */
+h1 {
+    color: #2c3e50;
+    font-size: 2.5rem;
+}
+
+/* This targets the Paragraph (p) */
+p {
+    font-size: 1.2rem;
+    line-height: 1.6; /* Adds space between lines */
+    color: #666;
+}
+
+/* This targets links */
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline; /* Underline when mouse hovers */
+}
